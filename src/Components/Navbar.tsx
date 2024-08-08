@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar(){
     return(
         <main className="justify-between bg-black items-center pb-5 flex border-2 border-[#d4d4d4] border-t-transparent border-r-transparent border-l-transparent">
-            <div className="flex items-center justify-center pl-10 pt-5">
+            <div className="flex items-center justify-center pl-40 pt-5">
                 <Link href={'/'}>
                     <Image 
                         src="/assets/c.png" 
@@ -15,7 +15,7 @@ export default function Navbar(){
                 </Link>
             </div>
             
-            <nav className="text-white mr-4 text-2xl font-bold">
+            <nav className="text-white mr-20 text-2xl font-bold">
                 <Link 
                     href={''}
                     className="pr-3"
@@ -34,7 +34,7 @@ export default function Navbar(){
                 >Endereço</Link>
             </nav>
 
-            <div className="flex mr-5 cursor-pointer">
+            <div className="flex mr-20 cursor-pointer">
                 <div className="pr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6 text-white hover:w-[30px] hover:h-[30px]">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
