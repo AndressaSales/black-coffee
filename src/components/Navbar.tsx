@@ -12,11 +12,11 @@ export default function Navbar(){
             <div className="flex text-[#FFF]">
                 <Link href={'/'}
                 className="mr-4 hover:border-2 hover:border-t-transparent hover:border-r-transparent hover:border-l-transparent hover:border-b-orange-500">Home</Link>
-                <Link href={'/menu'} className="hover:border-2 hover:border-l-transparent hover:border-t-transparent hover:border-r-transparent mr-4 hover:border-b-orange-500">Menu</Link>
-                <Link href={'/cart'} className="hover:border-2 
+                <Link href={'/Menu'} className="hover:border-2 hover:border-l-transparent hover:border-t-transparent hover:border-r-transparent mr-4 hover:border-b-orange-500">Menu</Link>
+                <Link href={'/Cart'} className="hover:border-2 
                 hover:border-r-transparent hover:border-l-transparent
                 hover:border-t-transparent mr-4 hover:border-b-orange-500">Shop</Link>
-                <Link href={'/contatos'}
+                <Link href={'/Contatos'}
                 className="hover:border-2 hover:border-r-transparent hover:border-t-transparent hover:border-l-transparent hover:border-b-orange-500">Contatos</Link>
             </div>
         </main>
