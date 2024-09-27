@@ -35,3 +35,7 @@
   transform: scale(1.1);
   transition: transform .4s ease-in-out;
 }
+
+.p3{
+  padding: 10px 0;
+}
