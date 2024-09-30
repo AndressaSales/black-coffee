@@ -16,8 +16,6 @@ export default function Navbar(){
                 <Link href={'/Cart'} className="hover:border-2 
                 hover:border-r-transparent hover:border-l-transparent
                 hover:border-t-transparent mr-4 hover:border-b-orange-500">Shop</Link>
-                <Link href={'/Contatos'}
-                className="hover:border-2 hover:border-r-transparent hover:border-t-transparent hover:border-l-transparent hover:border-b-orange-500">Contatos</Link>
             </div>
         </main>
     )
